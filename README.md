@@ -2,10 +2,10 @@ dialogtree.js - clean and simple implementation of dialog tree in javascript
 
 ### What is a dialog tree ?
 
-A dialog tree is used in game to code the conversation the player may have with bots
-(or non playable characterer).
-TODO give an url to wikipedia.
-TODO put the url from the github.
+A
+[Dialog tree](http://en.wikipedia.org/wiki/Dialog_tree)
+is used in game to code the conversation the player may have with bots
+(or [non playable characterer](http://en.wikipedia.org/wiki/Non-player_character)).
 
 A dialog tree is in fact a graph, multiple answer may lead to the same questions.
 In this tree, what is a node ? A dialog node encodes one exchange in the dialog.
@@ -101,3 +101,12 @@ Here is a sample of dialog encoded in json. This is the one used in /example
 	},
 ]
 ```
+
+#### Some Links 
+* video about dialog tree
+  * http://www.youtube.com/watch?v=lF5ipjVA_Ls
+  * http://www.youtube.com/watch?v=h7XsZXJor7A
+  * http://www.youtube.com/watch?v=A0R34QPp9gc
+  * http://www.youtube.com/watch?v=_vLq7p-a6MM
+* related techno
+  * http://en.wikipedia.org/wiki/Digital_conversation
