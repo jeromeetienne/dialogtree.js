@@ -1,0 +1,64 @@
+[
+	{
+		"nodeId"	: "initialQuestion",
+		"botText"	: "hello, how are you ?",
+		"answers"	: [
+			{
+				"playerText"	: "fine! and you ?",
+				"nextNodeId"	: "nodeHappyDay"
+			},
+			{
+				"playerText"	: "I have a terrible day...",
+				"nextNodeId"	: "nodeBadDay"
+			}
+		]
+	},
+	{
+		"nodeId"	: "nodeHappyDay",
+		"botText"	: "me too! how can i help you ?",
+		"answers"	: [
+			{
+				"playerText"	: "Just be happy, it is enougth for me!",
+				"nextNodeId"	: null
+			},
+			{
+				"playerText"	: "You can help me kill one guy, i need cash!",
+				"nextNodeId"	: "nodeAboutToDie"
+			},
+		],
+	},
+	{
+		"nodeId"	: "nodeBadDay",
+		"botText"	: "oh really ? sad to hear that. How come ?",
+		"answers"	: [
+			{
+				"playerText"	: "i mistune my clock so i missed my train... ",
+				"nextNodeId"	: "nodeNoClock"
+			},
+			{
+				"playerText"	: "im gonna die today. i know it",
+				"nextNodeId"	: "nodeAboutToDie"
+			},
+		],
+	},
+	{
+		"nodeId"	: "nodeNoClock",
+		"botText"	: "You looser you dont even know how to tune a clock. how ridicous, steer away",
+		"answers"	: [
+			{
+				"playerText"	: "you are so unfair!",
+				"nextNodeId"	: null
+			},
+		],
+	},
+	{
+		"nodeId"	: "nodeAboutToDie",
+		"botText"	: "You seems like dangerous to be around. So Long.",
+		"answers"	: [
+			{
+				"playerText"	: "ah ? well see ya",
+				"nextNodeId"	: null
+			}
+		]
+	},
+]
